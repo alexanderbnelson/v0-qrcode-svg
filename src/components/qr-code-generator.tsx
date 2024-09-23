@@ -33,6 +33,7 @@ export function QrCodeGenerator() {
       setQRCode(svg)
       setError('')
     } catch (err) {
+      console.error(err)
       setError('Failed to generate QR Code')
       setQRCode('')
     }
