@@ -19,9 +19,9 @@ pnpm lint         # Run ESLint
 ## Architecture
 
 **Tech Stack:**
-- Next.js 15 with App Router (`src/app/`)
-- React Server Components with client components where needed
-- TypeScript (strict mode disabled in tsconfig.json)
+- Next.js 16 with App Router (`src/app/`)
+- React 19 with Server Components (client components where needed)
+- TypeScript (strict mode disabled)
 - Tailwind CSS 4.x with shadcn/ui components
 - pnpm as package manager
 
